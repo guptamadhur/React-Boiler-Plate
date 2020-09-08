@@ -1,8 +1,16 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
+import App from "./client/App";
+import * as serviceWorker from "./serviceWorker";
 
-function Hi() {
-  return <p>Hi React</p>;
-}
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
 
-render(<Hi />, document.getElementById("app"));
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.register();
