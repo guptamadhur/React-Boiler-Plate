@@ -1,11 +1,12 @@
 # Starter Kit for [Building Applications in React]
 ## Get Started
 
-1. **Install [Node 8](https://nodejs.org)** or newer. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm)
-2. **Navigate to this project's root directory on the command line.**
-3. **Install Node Packages.** - `npm install`
-4. **Install [React developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)** in Chrome.
-5. Having issues? See below.
+1. **Install [Node 16.15.1](https://nodejs.org)** or newer. Need to run multiple versions of Node? Use [nvm](https://github.com/creationix/nvm)
+2. **Install [Npm 8.11.0]
+3. **Navigate to this project's root directory on the command line.**
+4. **Install Node Packages.** - `npm install`
+5. **Install [React developer tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) and [Redux Dev Tools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)** in Chrome.
+6. Having issues? See below.
 
 ## Having Issues? Try these things first:
 
