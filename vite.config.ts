@@ -40,7 +40,8 @@ export default defineConfig({
       }
     })
   ],
-  base: process.env.NODE_ENV === 'production' ? '/React-Boiler-Plate/' : '/',
+  base: '/',     
+  // base: process.env.NODE_ENV === 'production' ? '/React-Boiler-Plate/' : '/',
   build: {
     ssr: 'src/entry-server.tsx',
     outDir: 'dist/client'
